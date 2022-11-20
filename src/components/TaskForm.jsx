@@ -20,7 +20,7 @@ const TaskForm = ({retData}) => {
         }
     }
   return (
-    <div className='container block mx-auto border-green-900 border-8 mb-10 rounded-lg w-[70vw] h-[50vh] md:w-[50vw] md:h-[40vh]'>
+    <div className='container block mx-auto border-green-900 border-8 mb-4 rounded-lg w-[70vw] h-[40vh] md:w-[50vw] md:h-[40vh]'>
         <form onSubmit={onTriggerSub} className='flex flex-col space-y-4 p-3 items-start'>
             <h1 className='text-3xl font-bold text-green-800'>ADD A NEW TASK</h1>
             <h3 className='text-xl border-green-500 font-semibold'>Task Description</h3>
